@@ -16,12 +16,17 @@ cd DeviceResourcesApp
 ```bash
 npm install
 
+```
+
 ```bash
 npx expo install expo-contacts expo-image-picker @expo/vector-icons react-native-safe-area-context
+
+```
 
 ```bash
 npx expo start
 
+```
 ## Permissões
 
 O arquivo app.json configura as permissões necessárias para utilização dos recursos do dispositivo.
@@ -38,5 +43,6 @@ O arquivo app.json configura as permissões necessárias para utilização dos r
         "READ_EXTERNAL_STORAGE",
         "WRITE_EXTERNAL_STORAGE",
         "CAMERA"
+```
 
 
